@@ -1,0 +1,11 @@
+.main-icon{
+    height: 100px;
+}
+.menu{
+    background-color: tomato;
+    color: white;
+    padding: 5px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
