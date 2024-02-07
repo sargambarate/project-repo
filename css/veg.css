@@ -1,8 +1,30 @@
 .product-card{
     width: 200px;
-    height: 300px;
-    border: 4px solid rgb(16, 15, 15);
-    border-radius: 10px;
+    height:500px;
+    border: 3px solid rgb(16, 15, 15);
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px black;
+}
+.product-card:hover{
+    box-shadow: 0px 0px 20px black;
+}
+.product-card1{
+    border: 5px solid rgb(16, 15, 15);
+    border-radius: 20px;
+}
+.product-card1:hover{
+    box-shadow: 0px 0px 20px black;
+}
+.image2{
+    border-radius: 15px;
+}
+p{
+    text-align: center;
+    padding: 1px;
+}
+.V{
+    background-color: rgb(75, 203, 75);
+    height: 50px;
 }
 .product-img{
     width: 20%;
@@ -32,28 +54,30 @@
 .container{
     display: flex;
     margin: 10px;
-
+    justify-content: space-around;
 }
 .container1{
     margin: 10px;
     padding: 20px;
+    background-color: white;
 }
 .container2{  
     margin: 10px;
     padding: 20px;
-
+    background-color: white;
 }
 .container3{  
     margin: 10px;
     padding: 20px;
-
+    background-color: white;
 }
 .container4{ 
     margin: 10px;
     padding: 20px;
-
+    background-color: white;
 }
 .container5{ 
     margin: 10px;
     padding: 20px;
+    background-color: white;
 }
