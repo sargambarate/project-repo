@@ -1,4 +1,3 @@
-
 *{
 	margin: 0;
 	padding: 0;
@@ -10,7 +9,7 @@ body{
 	font-family: montserrat;
 }
 nav{
-	background:  palevioletred;;
+	background: palevioletred;;
 	height: 80px;
 	width: 100%;
 }
@@ -32,7 +31,7 @@ nav ul li{
 }
 nav ul li a{
 	color: rgb(17, 17, 17);
-	font-size: 19px;
+	font-size: 18px;
 }
 @media (max-width: 952px){
 	label.logo{
