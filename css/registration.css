@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
+.box {
+
+    border: 2px solid black ;
+    border-radius: 20px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+    
+
+}
+
+.title {
+    margin-left: 10px;
+    font-size: 30px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.title:hover{
+    font-size: 40px;
+
+}
+
+.place {
+    padding: 10px;
+    margin: 2px;
+    width: 400px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.place:hover {
+
+    color: white;
+    border: 3px solid black;
+
+}
+
+.name {
+    margin-left: 25px;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;  
+
+}
+
+.name:hover {
+    color: black;
+    font-size:35px;
+    transition: 1s;
+    
+}
+
+
+.gender {
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+.gender:hover{
+    font-size: 35px;
+    transition: 1s;
+
+}
+.city{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 15px;
+
+
+}
+
+.dob{
+    font-size: 24px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 15px;
+
+}
+
+.dob:hover{
+    font-size: 35px;
+    transition: 1s;
+}
+.btn {
+    margin-bottom: 10px;
+    margin-left: 130px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+
+}
+
+.btn:hover {
+
+    background-color: black;
+    color: white;
+    transition: 1s;
+
+}
+
+body {
+
+   background-image: url(../images/back-image.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+} 
+  
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color:white;
+    padding-left: 20px;
+
+}
