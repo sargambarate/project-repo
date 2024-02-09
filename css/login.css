@@ -54,3 +54,11 @@
     text-align: center;
     margin-top: -10px;
 }
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 20px;
+}
