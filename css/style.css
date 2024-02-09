@@ -1,4 +1,4 @@
-.main-icon{
+/*.main-icon{
     height: 100px;
 }
 .menu{
@@ -8,46 +8,3 @@
     margin: 10px;
     text-decoration: none;
     border-radius: 10px;
-}
-.hr{
-    box-shadow: 2px 2px 3px black;
-}
-body{
-    background-color: rgb(243, 231, 229);
-}
-.stp{
-    background-color: rgb(243, 231, 229);
-}
-@media screen and (max-width: 1000px){
-    .container{
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-}
-@media screen and (max-width: 800px){
-    .product-card{
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-}
-@media screen and (min-width:300px) and (max-width:600px){
-    .product-title{
-        text-align: center;
-        font-size: 18px;
-    }
-}
-@media screen and (min-width:300px) and (max-width:600px){
-    .btn-buy-now{
-       display: block;
-       margin: 10px auto;
-    }
-    .product-card{
-        height: auto;
-    }
-}
-.footer{
-    padding-top: 5px;
-    color: aliceblue;
-    background-color: black;
-    height: 100px;
-}
