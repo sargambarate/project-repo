@@ -12,6 +12,7 @@
 *{
     margin:0;
     padding:2px;
+    box-sizing: border-box;
 }
 .container{
     height:100vh;
@@ -86,3 +87,5 @@ body{
     padding: 10px 20px;
     text-align: center;
 }
+
+
