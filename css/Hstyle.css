@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    
+
   }
   .logo {
     text-align: center;
@@ -55,9 +55,9 @@
     text-decoration: none;
     color: black;
   }
-  
+
   #tagline {
- 
+
     color: black;
     background-color:white;
     border-radius: 50%;
@@ -69,7 +69,7 @@
     position: relative;
     border: solid 1px;
     border-color: #1e1a1a;
-    
+
   }
 
   .middle{
@@ -78,59 +78,49 @@
     background-size: cover;
     background-position: center;
   }
-  h2{
+  h1{
     text-align: center;
   }
 
-  .foodcards{
-     align-items: center;
-     position: relative;
-  }
-  .card1{
-    width:200px;
-    border:2px solid black;
+  #bullet{
+    padding: 80px 0px;
+   }
+   
+   .bullet-row{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    padding: 2px;
-    margin-left:100px ;
    }
-   .vegcorma{
-    width:200px;
-    border-radius: 50%;
-    padding: 3px 2px 3px 2px;
+   
+   .bullet-box{
+    flex-basis: 15%;
+    box-shadow: 2px 3px 5px grey;
+    padding: 10px;
+    text-align: center;
+       
    }
-
-   .name1{
-    padding-left:2px;
-    font-size: 20px;
+   .bullet-box img{
+    width: 100%;
+       
    }
-
-   .card2{
-    width:200px;
-    border:2px solid black;
-    align-items: center;
-    padding: 2px;
-    margin-left:100px ;
-    margin-top: 20px;
+   .bullet-box h2{
+    margin:20px 0px;
    }
-   .paneerbuttermasala{
-    width:200px;
-    border-radius: 50%;
-    padding: 3px 2px 3px 2px;
-   }
-   .name2{
-    padding-left:2px;
-    font-size: 20px;
-   }
-
-  
-  footer {
-    width: 96vw;
-    overflow-x: hidden;
-    background-color: #1e1a1a;
+   .bullet-box h3{
+    background: black;
     color: white;
-    padding: 10px 20px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
+    padding: 10px;
+   }
+   .bullet-box:hover{
+    transform: translate(-40px);
+    transition: 0.4s ease;
+   }
 
+   #footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 20px;
+   }
