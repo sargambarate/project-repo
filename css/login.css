@@ -18,15 +18,28 @@
 }
 .text{
     text-align: center;
-    margin-left: 50px;
+    margin-left: 92px
+}
+.text1{
+    width: 50px;
+    height:2px ;
+    margin-bottom: 5px;
+    margin-left: 90px;
 }
 .pass{
     text-align: center;
+    margin-right: 95px;
 }
+.pass1{
+    width: 50px;
+    height:2px ;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    margin-top: -19px;}
 .for{
     text-align: center;
-    margin-top: -20px;
-    margin-right: 140px;
+    margin-top: -15px;    
+    margin-right: 5px;
 }
 .btn{
     margin-left: 110px;
@@ -37,12 +50,7 @@
    width: 40px;
    border: none;
 }
-
 .register_link{
     text-align: center;
     margin-top: -10px;
 }
-.img{
-    ba
-}
-
