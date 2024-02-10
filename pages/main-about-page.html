@@ -1,126 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="https://kit.fontawesome.com/008d5cfe25.js" crossorigin="anonymous"></script>
+<head>
+   <script src="https://kit.fontawesome.com/008d5cfe25.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veg & Non-Veg</title>
-    <style>
 
-  @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
-    body{background-color: rgb(243, 226, 226);
-    }
-    .menu{
-        color: rgb(255, 255, 255);
-        background-color:  rgb(66, 177, 15);
-        width: 1000px;
-       height: 55px;
-       font-size: 10px;
-       padding-top: 15px;
-       font-family: 'Protest Riot', sans-serif;
-       margin-top: 15px;
-       margin-bottom: -65px;
+    <link rel="stylesheet" href="./../css/main_about.css">
 
-
-      } 
-      .bg-color{
-            color: rgb(192, 26, 26);
-           text-align: center;
-        }
-       
-        .container{
-            height: 850px;
-            width: 995px;
-            background-color: rgb(215, 215, 215);
-            border-radius: 15px;
-           
-        }
-       
-
-        .box{
-            border:solid black 4px;
-            box-shadow: 3px 3px 3px 3px rgb(66, 63, 63);
-            color: rgb(24, 21, 21);
-            height: 500px;
-            width: 300px;
-            margin-top: 5px;
-            margin-left: 10px;
-            border-radius: 5px;
-            background-color: rgb(177, 177, 177);
-            display: inline-block;
-        }
-        .box:hover{
-            box-shadow:  0px 0px 15px 15px rgb(68, 67, 67);
-            border-color: black;
-            
-        }
-        .title{
-            margin-left: 10px;
-            font-size: 55px;
-           font-family: 'Protest Riot', sans-serif;
-         text-shadow: aqua; 
-         
-          
-        }
-       
-        .sub-title{
-            margin-left: 60px;
-            margin-top: -3px;
-            color: rgb(15, 27, 27);
-            font-size: 20px;
-            font-family: 'Kanit', sans-serif;
-            font-family: 'Protest Riot', sans-serif;
-
-        }
-        .striker{
-          height: 130px;
-        }
-        .img{
-       border-radius: 2px;
-       height: 205px;
-       width: 290px;
-       margin-top: 1px;
-      margin-left: 1px;
-      margin-bottom: 1px;
-    
-    }
-           .name-btn{
-            height: 50px;
-            width: 300px;
-          background-color:  rgb(0, 0, 0);
-         margin-top: -8px;
-         
-          color: rgb(255, 249, 249);
-          font-size: 15px;
-          font-family: 'Protest Riot', sans-serif;
-          transition: 0.30s;
-           }
-           .name-btn:hover{
-            outline-color: 3px yellow;
-            box-shadow: 0px 0px 3px 3px rgb(94, 136, 145);
-            background-color: rgb(66, 177, 15);
-            color: rgb(255, 250, 250);
-            font-family: 'Protest Riot', sans-serif;
-            border: 3px solid black;
-            border-radius: 4px;
-            font-size: 18px;
-           }
-           .description{
-            font-size: 20px;
-            font-family: 'Protest Riot', sans-serif;
-           margin-left: 2px;
-           }
-           .footer{
-            font-size: 20px;
-            color: black;
-            margin-top: 30px;
-                   }
-
-           </style>
 </head>
+
+
 <body class="bg-color"> 
     
-    <header class="menu"><i class="fa-duotone fa-house">HOME</i> &nbsp;&nbsp; <i class="fa-duotone fa-user fa-flip-vertical">LOGIN</i> &nbsp;&nbsp; ABOUT&nbsp;&nbsp;</header>
-   <div class="container">
+   <nav>
+      <label class="logo">Online Recipes</label>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Registration</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Feedback</a></li>
+      </ul>
+  </nav>
+  
+  <div class="container">
 
     <h1 class="title">Online Food Recipe...</h1>
    <p class="sub-title">make your fevourite Recipe quickly...</p>
@@ -129,7 +33,7 @@
        <p class="description">&nbsp; Looking for quick and easy veggie meals?
          We have lots of speedy vegetarian recipes for you, all ready in 30 minutes or less, check them out here. 
          Try one of our quick vegetarian recipes ready in under 30 minutes, perfect for midweek that you can prepare in under half an hour, 
-         then check out more of our quick recipes</p>
+         then check out more of our quick recipes.</p>
          <button class="name-btn">Veg Dishes</button>
   </div>
 
@@ -142,8 +46,10 @@
          </p>
       <button class="name-btn">Non-Veg Dishes</button></div><br><br><br>
       <b> <hr></b>
-
-      <footer class="footer">Copyright © 2024. All Rights Reserved.</footer>
-  
+      <section id="footer">
+				<h2>Online Food Recipes....</h2>
+				<img src="C:\Users\sargam\Desktop\sargam\icons/recipe-icon-png-16.jpg" width="7%">
+			</section>
+      
 </body>
 </html>
