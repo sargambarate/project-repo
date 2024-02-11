@@ -30,9 +30,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform-style: preserve-3d;
-    transform-origin: center;
-    perspective: 2000px;
+    flex-wrap: wrap;
 }
 .left{
     flex-basis: 40%;
