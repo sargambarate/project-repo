@@ -17,12 +17,13 @@ nav{
 	height: 80px;
 	width: 100%;
 }
-label.logo{
-	color: white;
-	font-size: 35px;
-	line-height: 80px;
-	padding: 0 100px;
-	font-weight: bold;
+.logo {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(11, 13, 11);
+  font-family: 'Protest Riot', sans-serif;
+  margin-left: 40px;
+
 }
 nav ul{
 	float: right;
@@ -41,7 +42,31 @@ nav ul li a{
         color: rgb(192, 26, 26);
        text-align: center;
     }
+    .p{
+      margin-top: -20px;
+    }
    
+    #pages {
+      display: flex;
+      gap: 10px;
+      text-align: right;
+     
+
+    }
+    
+    #navlist {
+      width: 100%;
+      list-style: none;
+      padding: 15px;
+      /* margin-left: 15px;
+        margin-right: 15px;*/
+      font-size: 1.5rem;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: right;
+    }
     .container{
         height: 850px;
         width: 970px;
@@ -67,12 +92,21 @@ nav ul li a{
     .box:hover{
         box-shadow:  0px 0px 15px 15px rgb(68, 67, 67);
         border-color: black;
-        
-    }
+        translate:calc(40px);
+        transition: 0.6s ease;
+        -webkit-transform: perspective (40px);
+        -moz-transform: perspective (40px);
+        -ms-transform: perspective (40px);
+        -o-transform: perspective (40px);
+        -webkit-transition: 0.6s ease;
+        -moz-transition: 0.6s ease;
+        -ms-transition: 0.6s ease;
+        -o-transition: 0.6s ease;
+}
     .title{
         margin-left: 10px;
         margin-top: 20px;
-        font-size: 55px;
+        font-size: 45px;
        font-family: 'Protest Riot', sans-serif;
      text-shadow: aqua; 
      
@@ -121,6 +155,7 @@ nav ul li a{
         border-radius: 4px;
         font-size: 18px;
        }
+       
        .description{
         font-size: 20px;
         font-family: 'Protest Riot', sans-serif;
@@ -151,5 +186,4 @@ nav ul li a{
                @media screen and(min-width:300px) and(max-width:600px) {
                 
                }
-
 
