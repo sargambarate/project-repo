@@ -24,7 +24,8 @@ p{
 }
 .V{
     background-color: palevioletred;
-    height: 60px;
+    font-size: 50px;
+    font-weight: bold;
 }
 .product-img{
     width: 20%;
