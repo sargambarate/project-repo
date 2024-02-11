@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .main-icon{
     height: 100px;
 }
@@ -15,12 +19,13 @@
 body{
     background-color: rgb(243, 231, 229);
 }
-.footer{
-    padding-top: 5px;
-    color: aliceblue;
-    background-color: black;
-    height: 100px;
-    width: auto;
+.footer1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: black;
+	color: white;
+	padding: 20px;
 }
 .stp{
     background-color: rgb(243, 231, 229);
@@ -53,7 +58,6 @@ body{
     }
 }
 #footer{
-    margin-top: auto;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
