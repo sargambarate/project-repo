@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
 * {
     margin: 0;
     padding: 2px;
@@ -19,8 +22,10 @@
   }
   .logo {
     text-align: center;
-    font-size: 3rem;
-    color: white;
+    font-size: 5rem;
+    color: rgb(11, 13, 11);
+    font-family: 'Protest Riot', sans-serif;
+
   }
   nav {
     width: 100%;
@@ -58,8 +63,8 @@
 
   #tagline {
 
-    color: black;
-    background-color:white;
+    color: rgb(0, 0, 0);
+    background-color:rgba(17, 224, 37, 0.225);
     border-radius: 50%;
     height: 400px;
     width: 400px;
@@ -67,10 +72,23 @@
     margin-left: 50px;
     text-align: center;
     position: relative;
-    border: solid 1px;
+    border: solid 2px;
     border-color: #1e1a1a;
-
+    font-family: 'Protest Riot', sans-serif;
+    background-image: url("https://i.pinimg.com/736x/4e/0e/e7/4e0ee7d50e9e00ca54ec3440317a4916.jpg");
   }
+  #tagline:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 6px rgb(255, 248, 248);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size:21px ;
+    transform: translate(40px);
+    transition: 0.6s ease;
+    
+}
 
   .middle{
     height: 500px;
@@ -93,6 +111,8 @@
    }
    
    .bullet-box{
+    width:200px;
+    height:200px;
     flex-basis: 15%;
     box-shadow: 2px 3px 5px grey;
     padding: 10px;
@@ -112,7 +132,7 @@
     padding: 10px;
    }
    .bullet-box:hover{
-    transform: translate(-40px);
+    transform:scale(1,2);
     transition: 0.4s ease;
    }
 
@@ -128,3 +148,17 @@
    h4{
     text-align: center;
    }
+
+ @media screen and (max-width: 600px){
+  .bullet-row{
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+         
+ }
+ @media screen and (max-width: 400px){
+  .bullet-box {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+ }
