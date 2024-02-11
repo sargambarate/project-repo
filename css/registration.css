@@ -8,11 +8,7 @@ body{
     text-align: center;
     
 }
-.heading:hover{
-     font-size: 40px;
-     transition: 1s;
 
-}
 .container{
     height: 1050px;
     width: 700px;
