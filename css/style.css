@@ -19,13 +19,6 @@ body{
 body{
     background-color: rgb(243, 231, 229);
 }
-.footer{
-    padding-top: 5px;
-    color: aliceblue;
-    background-color: black;
-    /* height: 100px; */
-    width: auto;
-}
 .stp{
     background-color: rgb(243, 231, 229);
 }
