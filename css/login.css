@@ -1,0 +1,64 @@
+.boby{
+    padding: 0;
+    margin: 0;
+
+}.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    width: 350px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px;
+}
+.center h1{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    margin-left: 92px
+}
+.text1{
+    width: 50px;
+    height:2px ;
+    margin-bottom: 5px;
+    margin-left: 90px;
+}
+.pass{
+    text-align: center;
+    margin-right: 95px;
+}
+.pass1{
+    width: 50px;
+    height:2px ;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    margin-top: -19px;}
+.for{
+    text-align: center;
+    margin-top: -15px;    
+    margin-right: 5px;
+}
+.btn{
+    margin-left: 110px;
+   font-size: 10px;
+   padding: 10px 50px;
+   background-color: black;
+   height: 20px;
+   width: 40px;
+   border: none;
+}
+.register_link{
+    text-align: center;
+    margin-top: -10px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 20px;
+}
