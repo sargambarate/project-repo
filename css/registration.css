@@ -30,6 +30,9 @@ body{
  
 
 }
+>.heading:hover{
+    font-size: 30px;
+}
 .input{
     
     width: 600px;
