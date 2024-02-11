@@ -1,65 +1,70 @@
 <!DOCTYPE html>
-<html>
-
-<head> 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>registration</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
 <link rel="stylesheet" href="../css/registration.css"/>
-<link rel="stylesheet" href="./../css/style.css"> 
 </head>
+<body>
+    <form class="form">
+<h1 class="heading">REGISTRATION FORM</h1>
+<div class="container"><br/>
+    <labal for="name" class="Head1">Enter Full Name:</labal><br/><br/>
+    <input class="input" type="text" id="name" placeholder="Enter your Name" required/>
+     <br/><br/>
+    
+     <labal for="email" class="Head1">Enter email:</labal><br/><br/>
+     <input class="input" type="email" id="email" placeholder="Enter email" required/>
+     <br/><br/>
 
-<body >
-    <div class="box">
-        <form class="f">
+     <labal for="no" class="Head1">Enter phone no:</labal><br/><br/>
+     <input class="input" type="text" id="no" placeholder="phone no" required/>
+     <br/><br/>
 
-         <br/><br/>
-            <b class="title">REGISTRATION FORM</b><br /><br />
-            <lebal for="first" class="name">Enter Your Name: </lebal><br />
-            <input type="text" id="first" placeholder="Enter name" class="place" required />
-            <br />
+     <labal for="password" class="Head1">Enter Password:</labal><br/><br/>
+     <input class="input" type="password" id="name" placeholder="Enter Password" required/>
+     <br/><br/>
 
 
-            <lebal for="NO" class="name">Enter Your Mo-no:</lebal><br />
-            <input type="NO" id="NO" placeholder="Enter number" class="place" required />
-            <br />
+     <labal for="region" class="Head1">Enter Your region:</labal><br/><br/>
+    <input class="input" type="text" id="region" placeholder="Enter your region" required/>
+     <br/><br/>
 
-            <lebal for="password" class="name">Enter Your Password:</lebal><br />
-            <input type="password" id="password" placeholder="Enter Password" class="place" required />
-            <br />
+     <labal for="name" class="Head1">Enter Address:</labal><br/><br/>
+     <input class="input" type="text" id="name" placeholder="Enter your address" required/>
+      <br/><br/>
+     
 
+     
+     <labal for="name" class="Head1">Enter DOB:</labal>
+     <input class="dob" type="date" id="name" placeholder="enter dob" required/>
+     <br/><br/><br/>
 
-            <lebal for="adress" class="name">Enter Your Address:</lebal><br />
-            <input type="adresss" id="adress" placeholder="Enter Your Address" class="place" required />
-            <br />
+<label for="city" class="Head1">Enter City:</label>
+<select class="city" ><br/><br/>
+    
+    
 
-            <lebal for="date" class="dob">Date Of Birth:</lebal>
-            <input type="date" class="dob1" required />
-            <br /><br />
+    <option CLASS="city">Select Your City:</option>
+    <option> Mumbai</option>
+    <option> Pune</option>
+    <option> Panvel</option>
+    <option> Delhi</option>
+    <option> Nagar</option>
 
-            <label for="city" class="name">Enter City:</label>
-            <select class="city">
+</select><br><br>
+<lebal for="gender" class="gender">Gender:</lebal><br/><br/>
+<input type="radio" class="option" name="op"/>
+<lebal for="male" class="Gen">Male</lebal>
+<input type="radio" class="option" name="op"/>
+<lebal for="female" class="Gen">Female</lebal>
+<input type="radio" class="option" name="op"/>
+<lebal for="other" class="Gen">other</lebal><br/><br/>
+<button  class="btn" type="submit"> Register now</button>
 
-                <option CLASS="city">Select Your City:</option>
-                <option> Mumbai</option>
-                <option> Pune</option>
-                <option> Panvel</option>
-                <option> Delhi</option>
-                <option> Nagar</option>
-            </select>
-            <br /><br />
-            
-            <lebal for="radio" class="gender"> Gender:</lebal>
-            <input type="radio" name="op" class="gender" />male
-            <input type="radio" name="op" class="gender" />female
-            <input type="radio" name="op" class="gender"/>other
-            <br /><br />
-           
-            <button type="submit" class="btn"> <a href="./../index.html">Submit</a></button>
-            
-            
-       </forms>
-    </div>
-                    
+</div>
+</form>
+    
 </body>
 </html>
