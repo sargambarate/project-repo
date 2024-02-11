@@ -1,3 +1,7 @@
+
+body{
+
+}
 .main-icon{
     height: 100px;
 }
@@ -14,6 +18,13 @@
 }
 body{
     background-color: rgb(243, 231, 229);
+}
+.footer{
+    padding-top: 5px;
+    color: aliceblue;
+    background-color: black;
+    height: 100px;
+    width: auto;
 }
 .stp{
     background-color: rgb(243, 231, 229);
@@ -44,10 +55,13 @@ body{
     .product-card{
         height: auto;
     }
-.footer{
-    padding-top: 5px;
-    color: aliceblue;
-    background-color: black;
-    height: 100px;
 }
+#footer{
+    margin-top: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: black;
+	color: white;
+	padding: 20px;
 }
