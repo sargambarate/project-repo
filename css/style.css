@@ -56,6 +56,13 @@ body{
         height: auto;
     }
 }
+@media screen and  (max-width:600px){
+   .nav{
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    }
+}
 #footer{
 	display: flex;
 	justify-content: space-around;
