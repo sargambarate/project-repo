@@ -56,6 +56,12 @@ body{
 
     }
 }
+@media screen and (max-width:600px){
+    #footer{
+        padding-top: 15px;
+
+    }
+}
 #footer{
 	display: flex;
 	justify-content: space-around;
