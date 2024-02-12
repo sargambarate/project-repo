@@ -23,9 +23,8 @@ p{
     padding: 1px;
 }
 .V{
-    background-color: palevioletred;
-    font-size: 50px;
-    font-weight: bold;
+    background-color: #ff4dd2;
+    height: 60px;
 }
 .product-img{
     width: 20%;

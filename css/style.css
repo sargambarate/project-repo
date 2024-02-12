@@ -19,6 +19,13 @@ body{
 body{
     background-color: rgb(243, 231, 229);
 }
+.footer{
+    padding-top: 5px;
+    color: aliceblue;
+    background-color: black;
+    /* height: 100px; */
+    width: auto;
+}
 .stp{
     background-color: rgb(243, 231, 229);
 }
@@ -50,20 +57,7 @@ body{
         height: auto;
     }
 }
-@media screen and  (max-width:600px){
-   .nav{
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
 
-    }
-}
-@media screen and (max-width:600px){
-    #footer{
-        padding-top: 15px;
-
-    }
-}
 #footer{
 	display: flex;
 	justify-content: space-around;

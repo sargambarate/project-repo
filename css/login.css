@@ -1,64 +1,77 @@
-.boby{
-    padding: 0;
+* {
     margin: 0;
-
-}.center{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+.container {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 30px;
-    width: 350px;
-    background-color: palevioletred;
-    border-radius: 5px;
+    padding: 80px;
+    width: 380px;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    border-radius: 10px;
     box-shadow: 0px 8px 16px 0px;
 }
-.center h1{
-    text-align: center;
+.container h1 {
+    margin-bottom: 2rem;
+    font-size: xx-large;
 }
-.text{
-    text-align: center;
-    margin-left: 92px
-}
-.text1{
-    width: 50px;
-    height:2px ;
-    margin-bottom: 5px;
-    margin-left: 90px;
-}
-.pass{
-    text-align: center;
-    margin-right: 95px;
-}
-.pass1{
-    width: 50px;
-    height:2px ;
-    margin-bottom: 10px;
-    margin-left: 90px;
-    margin-top: -19px;}
-.for{
-    text-align: center;
-    margin-top: -15px;    
-    margin-right: 5px;
-}
-.btn{
-    margin-left: 110px;
-   font-size: 10px;
-   padding: 10px 50px;
-   background-color: black;
-   height: 20px;
-   width: 40px;
-   border: none;
-}
-.register_link{
-    text-align: center;
-    margin-top: -10px;
-}
-#footer{
+.container form {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background: black;
-    color: white;
-    padding: 20px;
+}
+.container form label {
+    width: 90%;
+    margin-bottom: 5px;
+}
+.container form input {
+    border-radius: 20px;
+    width: 16rem;
+    outline: none;
+    padding: 10px 10px;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(133, 129, 129);
+}
+.for{
+    margin-top:-20px;
+    text-decoration: none;
+}
+button {
+    width: 100%;
+	height: 40px;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+    border-radius: 20px;
+}
+.link{
+    text-align: center;
+    margin-top: 20px;
 }
