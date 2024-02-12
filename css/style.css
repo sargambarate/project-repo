@@ -45,6 +45,7 @@ body{
     .product-title{
         text-align: center;
         font-size: 18px;
+        
     }
 }
 @media screen and (min-width:300px) and (max-width:600px){
@@ -56,6 +57,7 @@ body{
         height: auto;
     }
 }
+
 #footer{
 	display: flex;
 	justify-content: space-around;
