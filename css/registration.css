@@ -80,9 +80,15 @@ body{
     margin: 0px auto;
     margin-top: 20px;
     color: white;
+    background-color: white;
+    color: black;
+    
+    
+}
+.btn:hover{
     background-color: black;
-    
-    
+    color: white;
+    transition: 1s;
 }
 @media  screen and  (max-width:768px){
     .container{
