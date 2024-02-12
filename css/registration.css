@@ -1,7 +1,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color:#fc466b ;
+    background-image: url(../images/back-image.jpeg );
+    background-size: cover;
 
 }
 .heading{
@@ -9,9 +10,8 @@ body{
     
 }
 .heading:hover{
-     font-size: 40px;
-     transition: 1s;
-
+    font-size: 40px;
+    transition: 1s;
 }
 .container{
     height: 1050px;
@@ -32,6 +32,11 @@ body{
  
 
 }
+.Head1:hover{
+    font-size: 30px;
+    transition: 1s;
+}
+
 .input{
     
     width: 600px;
@@ -51,6 +56,10 @@ body{
 .gender{
     font-size: 27px;
     margin-left: 30px;
+}
+.gender:hover{
+    font-size: 30px;
+    transition: 1s;
 }
 .city{
     padding: 10px;
