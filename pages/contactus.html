@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="./../css/contactus.css"/>
-    <link rel="stylesheet" href="./../css/style.css"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <title>Media Query</title>
+  <link rel="stylesheet" href="./../css/contactus.css">
+  <link rel="stylesheet" href="./../css/style.css">
 </head>
 <body>
-    <h1 class="btn"> This is contact us page...</h1>
+  <nav>
+    <label class="logo">Online Recipes</label>
+    <ul>
+        <li><a href="./../index.html">Home</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="feed.html">Feedback</a></li>
+    </ul>
+</nav>
+<br/>
+
+  <div class="container">
+  
+
+    <form action="">
+      <h1>Contact us</h1><br/><br/>
+
+      <div class="form-group">
+        <input type="text" placeholder="Enter Name" class="input-box">
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Enter Email" class="input-box">
+      </div>
+      <div class="form-group">
+        <textarea cols="40" rows="7"
+        placeholder="Enter Your Message">
+      </textarea>
+      </div>
+<input type="submit" value="connect us" class="btn">
+
+    </form>
+  </div>
+  <br/>
+
+  <section id="footer">
+    <h2>2024 Food Recipe Website. All Rights Reserved.</h2>
+    <img src="./../icons/recipe-icon-png-16.jpg" width="7%">
+    </section>
 </body>
+
 </html>
