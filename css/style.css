@@ -38,6 +38,7 @@ body{
     .product-title{
         text-align: center;
         font-size: 18px;
+        
     }
 }
 @media screen and (min-width:300px) and (max-width:600px){
@@ -53,6 +54,7 @@ body{
    .nav{
     flex-wrap: wrap;
     justify-content: space-between;
+    
 
     }
 }
