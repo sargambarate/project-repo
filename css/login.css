@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(to bottom, #7595db, #dc1f7d, #b4b4f8);
 }
 .container {
     margin: 1rem;
