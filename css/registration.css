@@ -8,6 +8,7 @@ body{
 }
 .heading{
     text-align: center;
+    margin-left: 500px;
     
 }
 .heading:hover{
@@ -142,3 +143,43 @@ body{
 
 
 
+  
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: palevioletred;;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: rgb(17, 17, 17);
+    font-size: 19px;
+}
