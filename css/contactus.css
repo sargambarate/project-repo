@@ -1,90 +1,227 @@
-nav{
-	background: rgb(226, 82, 130);
-	height: 80px;
-	width: 100%;
-    color: black;
+body {
+    font-family: Arial, sans-serif;      background: linear-gradient(to right, #e63f92, #ee55b4);
+    margin: 0;
+    padding: 0;
 }
-label.logo{
-	font-size: 35px;
-	line-height: 80px;
-	padding: 0 100px;
-	font-weight: bold;
-}
-nav ul{
-	float: right;
-	margin-right: 20px;
-}
-nav ul li{
-	display: inline-block;
-	line-height: 80px;
-	margin: 0 5px;
-}
-nav ul li a{
-	color: rgb(17, 17, 17);
-	font-size: 19px;
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    place-content: center;
     font-family: montserrat;
-    
-    background-image: url(./../images/contact/WhatsApp\ Image\ 2024-02-12\ at\ 6.34.48\ PM.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
+}
 
+nav {
+    background: palevioletred;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(17, 17, 17);
+    font-size: 19px;
+}
+header {
+    background-color: rgb(190, 30, 57);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #333;
+}
+
+form {
+    max-width: 600px;
+    color: #000; /* Adjusted text color to black for better visibility */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333;
+    height: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+    font-weight: bolder;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid rgb(232, 220, 220);
+    box-shadow: 2px 0px 5px rgb(248, 189, 189);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(16, 16, 16);
+    padding: 10px 20px;
+    margin: 10px;
+    font-weight: bold;
 }
 
 .container {
-    width: 450px;
-    height: 450px;
-    background-color: 1 2 3 4;
-    display: grid;
-    border: 1px solid black;
-}
-
-h1 {
-    color: #f2ecec;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.form-group {
-    border-radius: 5px ;
-    padding: 10px;
-    width: 400px;
-    margin: 20px0;
-    text-align: center;
-    font-size: 22px;
-}
-.input-box{
-    padding: 5px;
-    width: 280px;
-    height: 35px;
-    border-radius: 5px;
-    border: none;
-}
-.btn{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    width: 160px;
-    height: 35px;
-    padding: 5px;
-    border-radius: 20px;
-    margin-left: 130px;
-    cursor: pointer;
-    border: none;
-    font-size: 22px;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    perspective: 200px;
 }
 
-#footer{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background: black;
-	color: white;
-	padding: 10px;
+.left {
+    flex-basis: 40%;
+    animation: animate 3s linear infinite;
+}
 
+.img1 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.right {
+    flex-basis: 50%;
+}
+
+.footer1 {
+    width: auto;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+nav {
+    background: palevioletred;
+    height: auto;
+    width: auto;
+}
+
+label.logo {
+    color: rgb(245, 233, 233);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(17, 17, 17);
+    font-size: 19px;
+}
+
+
+@media only screen and (max-width: 600px) {
+/* Adjustments for smaller screens */
+
+nav ul {
+float: none;
+margin: 0;
+text-align: center;
+}
+
+nav ul li {
+display: block;
+margin: 0;
+}
+
+label.logo {
+padding: 0 20px;
+}
+
+form {
+height: auto;
 }

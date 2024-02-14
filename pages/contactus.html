@@ -2,53 +2,50 @@
 <html lang="en">
 
 <head>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Form</title>
-  <title>Media Query</title>
-  <link rel="stylesheet" href="./../css/contactus.css">
-  <link rel="stylesheet" href="./../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Recipes</title>
+    <link rel="stylesheet" href="./../css/contactus.css">
+    <link rel="stylesheet" href="./../css/style.css">
+    <style>
+        body{
+            background-image: url('./../images/contact/copy-space-delicious-fruit-bowl_23-2148367518.avif');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
+
 <body>
-  <nav>
-    <label class="logo">Online Recipes</label>
-    <ul>
-        <li><a href="./../index.html">Home</a></li>
-        <li><a href="./../pages/registration.html">Registration</a></li>
-        <li><a href="./../pages/contactus.html">Contact</a></li>
-        <li><a href="./../pages/main-about-page.html">About</a></li>
-        <li><a href="./../pages/feed.html">Feedback</a></li>
-    </ul>
-</nav>
-<br/>
+&nbsp;
+    <nav>
+        <label class="logo">Online Recipes</label>
+        <ul>
+            <li><a href="./../index.html">Home</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            <li><a href="main-about-page.html">About</a></li>
+            <li><a href="feed.html">Feedback</a></li>
+        </ul>
+    </nav>
 
-  <div class="container">
-  
+    <form action="#" method="post" class="myform">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
 
-    <form action="">
-      <h1>Contact us</h1><br/><br/>
-
-      <div class="form-group">
-        <input type="text" placeholder="Enter Name" class="input-box">
-      </div>
-      <div class="form-group">
-        <input type="email" placeholder="Enter Email" class="input-box">
-      </div>
-      <div class="form-group">
-        <textarea cols="40" rows="7"
-        placeholder="Enter Your Message">
-      </textarea>
-      </div>
-<input type="submit" value="connect us" class="btn">
-
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required> 
+      
+        <br>
+        <br>
+        <textarea name="comment" id="comt" cols="30" rows="5" placeholder="Message"></textarea><br><br>
+        <center><button>Connect Us </button></center>
     </form>
-  </div>
-  <br/>
-
-  <section id="footer">
-    <h2>2024 Food Recipe Website. All Rights Reserved.</h2>
-    <img src="./../icons/recipe-icon-png-16.jpg" width="7%">
+    <section id="footer">
+        <h2>2024 Food Recipe Website. All Rights Reserved.</h2>
+        <img src="./../icons/recipe-icon-png-16.jpg" width="7%">
     </section>
-</body>
 
+
+                
 </html>
