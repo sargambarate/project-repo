@@ -107,7 +107,7 @@ header {
 nav {
     width: auto;
     height: auto;
-    border-bottom: 1px solid rgb(232, 220, 220);
+    border-bottom: 1px solid rgb(247, 222, 222);
     box-shadow: 2px 0px 5px rgb(248, 189, 189);
     display: flex;
     justify-content: space-around;
