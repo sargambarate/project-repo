@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #7595db, #dc1f7d, #b4b4f8);
+    background: linear-gradient(to bottom, #f35ff6, #bd397b, #ce6992);
 }
 .container {
     margin: 1rem;
@@ -60,7 +60,7 @@ button {
 	justify-content: center;
 	display: block;
 	color: #fff;
-	background: #573b8a;
+	background: #ed48ab;
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 20px;
