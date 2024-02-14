@@ -68,7 +68,7 @@ nav ul li a{
     }
     .container{
         height: 850px;
-        width: 970px;
+        width: 1400px;
         background-color: rgb(215, 215, 215);
         border-radius: 15px;
         margin-top: -15px;
@@ -81,7 +81,7 @@ nav ul li a{
         box-shadow: 3px 3px 3px 3px rgb(66, 63, 63);
         color: rgb(24, 21, 21);
         height: 500px;
-        width: 350px;
+        width: 450px;
         margin-top: 50px;
         margin-left: 20px;
         border-radius: 5px;
