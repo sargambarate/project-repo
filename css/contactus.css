@@ -159,6 +159,7 @@ nav {
     background: black;
     color: white;
     padding: 10px;
+    
 }
 
 * {
@@ -177,6 +178,7 @@ nav {
     background: palevioletred;
     height: auto;
     width: auto;
+
 }
 
 label.logo {
