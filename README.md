@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 ## icp-7-group-4-html-css--project-1
 
 # Online food Recipes 
-##  Welcome To Our  Food Recipes...
+##  Welcome To Our  Food Recipes..
 
 ### The following are images from the website :
 
@@ -32,9 +32,9 @@
 
 
 ###  Non-veg-recipes-Step
-![Recipe Step](./ss/non-veg-recipes-step.PNG)
+![Recipe Step](./ss/non-veg-recipe.PNG)
 
-###  Feednack page
+###  Feedback page
 ![ Feedback](./ss/feedback.PNG)
 
 
@@ -59,16 +59,3 @@ Every member created a page in the project
 10. Feedback - Uruj Khan 
 
 
-
-
-=======
-# This is Online Food Recipe Website...
-## -This website contain both veg and non-veg recipes.
-## -It contains ***best*** Recipes you need.
-
-```
-This is a best Website for Recipes.
-```
-
-[Visit my project Repo](https://github.com/123vkgithub/project-repo/tree/master)
->>>>>>> 3fdc608669162079c9825ce1ca6954e4569ae866
