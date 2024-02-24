@@ -1,7 +1,7 @@
 
 ## icp-7-group-4-html-css--project-1
 
-# Online food Recipes 
+# Online Food Recipes 
 ##  Welcome To Our  Food Recipes..
 
 ### The following are images from the website :
